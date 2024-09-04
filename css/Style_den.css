@@ -1,0 +1,131 @@
+.logo
+{
+	position: absolute;
+	left: 20px;
+	top: 0px;
+	z-index: 999;
+	max-height: 8%;
+
+}
+
+header
+{
+	position: absolute; 
+	background-color: yellow; 
+	width: 100%; 
+	height:50px;
+	left: 0px; 
+	top: 0px;
+    box-shadow:0 0px 10px 0;	
+}
+
+header ul
+{
+	position: absolute;
+	left: 170px;
+
+}
+
+header a
+{
+	position: relative;
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 150px;
+	font-color:#000;
+	left: -140px;
+	font-size: 15px;
+	font-family: "calibri";
+}
+p{
+
+	font-weight: bold;
+}
+ul
+{
+
+	font-weight:bold;
+
+}
+body {
+	z-index:-1;
+	background-image: url('/img/Social.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+section
+{
+	position: absolute;
+	top: 120px;
+	left: 250px;
+	width: 300px;
+	text-align: justify; 
+	font-size: 15px;
+	font-family: "calibri";
+}
+
+.form 
+{
+	position: absolute;
+	top: 120px;				
+	left: 390px;
+	font-family: "calibri";
+
+}
+
+input,select
+{
+	position: absolute;
+	left: 170px;
+}
+
+p
+{
+	font-size: 20px;
+	font-size: 15px;
+	font-family: "calibri";
+}
+
+.fondo
+{
+	position: absolute;
+	top: 100px;
+	left: 175px;
+	width: 950px;
+	height: 330px;
+	border: 1px solid;
+	box-shadow:0 0px 5px 0;
+	border-radius: 20px / 20px;
+	background:linear-gradient(100deg, #EBEBF4,#EBEBF4, #EBEBF4, #C4C4CB , #C4C4CB  );
+}
+
+
+footer
+{
+	position: absolute;
+	top: 575px;
+	left: 0px; 
+	background-color: black;
+	width: 100%; 
+	height: 50px; 
+	box-shadow:0 0px 10px 0;
+
+}
+
+
+footer p 
+{
+	position: absolute;
+	left: 600px;
+	font-size: 15px;
+	font-family: "calibri";
+	color: yellow;
+}
+
+audio{
+	position: absolute;
+	left: 500px;
+	top: 500px;
+}
